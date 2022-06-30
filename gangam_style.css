@@ -1,0 +1,121 @@
+/*  
+  _           _                     
+ | |__   __ _| |___  __ _ _ __ ___  
+ | '_ \ / _` | / __|/ _` | '_ ` _ \ 
+ | |_) | (_| | \__ \ (_| | | | | | |
+ |_.__/ \__,_|_|___/\__,_|_| |_| |_|
+                                    
+*/
+
+
+/*		MENU STYLE
+*/
+        .menu a:link{
+            font-family: 'Courirer', monospace;
+            padding: 0px;
+            margin: 0px;
+            text-decoration:none;
+        }        
+        .menu a:hover{
+            font-family: 'Courirer', monospace;
+            padding: 0px;
+            margin: 0px;
+            color: transparent;
+            text-shadow: 0 0 4px rgba(0,0,0,0.3);
+            text-decoration-line: none;
+            
+        }  
+        
+        .menu a:visited {
+            color: black;
+        }
+        
+        
+		h1 {
+			font-family:  'Didot', serif;
+            font-size: 70px;
+            font-weight: 400;
+            padding: 0px;
+    		margin: 0px;
+            text-shadow: 0 0 50px rgba(0,0,0,0.3);
+		}
+
+        h1:hover {
+            font-family:  'Didot', serif;
+            font-size: 70px;
+            font-weight: 400;
+            padding: 0px;
+            margin: 0px;
+            color: transparent;
+            text-shadow: 0 0 10px rgba(0,0,0,0.3);
+
+        }
+
+p {
+    font-family:  'Helvetica', serif;
+    text-align: right;
+}
+
+/*
+		Big links in the index page
+*/
+	   .indexbig  a:link {
+			font-family:  'Helvetica', serif;
+            font-size: 40px;
+            font-weight: 400;
+            text-decoration: none;
+			color: black
+		}
+        
+ 		.indexbig a:hover {
+			font-family:  'Helvetica', serif;
+            font-size: 40px;
+            font-weight: 400;
+            color: transparent;
+            text-shadow: 0 0 10px rgba(0,0,0,0.3);
+            text-decoration: none;
+            
+		}
+
+        .indexbig a:visited {
+            color: black;
+}
+        
+        .body a:link {
+			font-family:  'Helvetica', serif;
+            font-size: 40px;
+            font-weight: 400;
+            text-decoration-line: none;
+		}
+        
+        .body a:hover {
+			font-family:  'Helvetica', serif;
+            font-size: 40px;
+            font-weight: 400;
+            color: transparent;
+            text-shadow: 0 0 10px rgba(0,0,0,0.3);
+            text-decoration-line: none;
+            
+		}
+        
+        .body a:visited {
+            color: black;
+        }
+        
+		
+/*      BACKGROUD COLOR
+*/
+		body{
+		background: white; 
+		}
+
+/*      CANVAS
+*/        
+canvas {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 600px;
+}
